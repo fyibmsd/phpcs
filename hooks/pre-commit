@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# format code
+vendor/bin/php-cs-fixer fix . --config vendor/fyibmsd/phpcs/phpcs >> /dev/null 2>&1
